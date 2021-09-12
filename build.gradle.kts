@@ -1,6 +1,9 @@
 /**
 * 퍼블리싱
 */
+import org.gradle.api.publish.PublishingExtension
+
+
 apply(plugin = "org.gradle.maven-publish")
 
 publishing {
