@@ -1,6 +1,8 @@
 /**
 * 퍼블리싱
 */
+apply(plugin = "org.gradle.maven-publish")
+
 publishing {
     repositories {
         maven {
