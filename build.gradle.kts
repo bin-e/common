@@ -3,10 +3,11 @@
 */
 import org.gradle.api.publish.PublishingExtension
 
+plugins {
+    `maven-publish`
+}
 
-apply(plugin = "org.gradle.maven-publish")
-
-publishing {
+configure<PublishingExtension> { 
     repositories {
         maven {
             name = "GitHubPackages"
